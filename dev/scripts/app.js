@@ -159,7 +159,10 @@ export default class App extends React.Component {
             calcRatingDenominator={this.calcRatingDenominator}
             filteredClients={this.state.filteredClients}
           />
-          <AverageIncome revenue={this.state.revenue} />
+          <AverageIncome
+            revenue={this.state.revenue}
+            filteredClients={this.state.filteredClients}
+          />
           <PieChart rating={this.state.rating} visa={this.state.visa} />
           <BarGraph visa={this.state.visa} />
           <ViewClientListFiltered
@@ -177,7 +180,10 @@ export default class App extends React.Component {
             calcRatingDenominator={this.calcRatingDenominator}
             filteredClients={this.state.filteredClients}
           />
-          <AverageIncome revenue={this.state.revenue} />
+          <AverageIncome
+            revenue={this.state.revenue}
+            filteredClients={this.state.filteredClients}
+          />
           <PieChart rating={this.state.rating} visa={this.state.visa} />
           <BarGraph visa={this.state.visa} />
           <ViewClientListFiltered
@@ -195,7 +201,10 @@ export default class App extends React.Component {
             calcRatingDenominator={this.calcRatingDenominator}
             filteredClients={this.state.filteredClients}
           />
-          <AverageIncome revenue={this.state.revenue} />
+          <AverageIncome
+            revenue={this.state.revenue}
+            filteredClients={this.state.filteredClients}
+          />
           <PieChart rating={this.state.rating} visa={this.state.visa} />
           <BarGraph visa={this.state.visa} />
           <ViewClientListFiltered
@@ -214,7 +223,10 @@ export default class App extends React.Component {
             calcRatingDenominator={this.calcRatingDenominator}
             filteredClients={this.state.filteredClients}
           />
-          <AverageIncome revenue={this.state.revenue} />
+          <AverageIncome
+            revenue={this.state.revenue}
+            filteredClients={this.state.clients}
+          />
           <PieChart rating={this.state.rating} visa={this.state.visa} />
           <BarGraph visa={this.state.visa} />
           <ViewClientList clients={this.state.clients} />

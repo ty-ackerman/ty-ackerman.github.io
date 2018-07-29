@@ -11,12 +11,9 @@ class AverageIncome extends React.Component {
         </p>
         <p>
           Total Revenue Received in Period Selected: $
-          {Math.round(this.props.revenue.totalRev * 100) / 100}
+          {Math.round(this.props.revenue.totalRev * 100) / 1}
         </p>
-        <p>
-          Total Clients:{" "}
-          {this.props.revenue.totalRev / this.props.revenue.avgRev}
-        </p>
+        <p>Total Clients: {this.props.filteredClients.length}</p>
         {console.log(this.props.revenue)}
       </React.Fragment>
     );
